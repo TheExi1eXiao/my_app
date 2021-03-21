@@ -1,0 +1,85 @@
+PODS:
+  - device_info (0.0.1):
+    - Flutter
+  - Flutter (1.0.0)
+  - flutter_custom_dialog (0.0.1):
+    - Flutter
+  - flutter_statusbar_manager (0.0.1):
+    - Flutter
+  - FMDB (2.7.5):
+    - FMDB/standard (= 2.7.5)
+  - FMDB/standard (2.7.5)
+  - image_picker (0.0.1):
+    - Flutter
+  - package_info (0.0.1):
+    - Flutter
+  - path_provider (0.0.1):
+    - Flutter
+  - photo_manager (0.0.1):
+    - Flutter
+  - shared_preferences (0.0.1):
+    - Flutter
+  - sqflite (0.0.1):
+    - Flutter
+    - FMDB (~> 2.7.2)
+  - video_player (0.0.1):
+    - Flutter
+
+DEPENDENCIES:
+  - device_info (from `.symlinks/plugins/device_info/ios`)
+  - Flutter (from `Flutter`)
+  - flutter_custom_dialog (from `.symlinks/plugins/flutter_custom_dialog/ios`)
+  - flutter_statusbar_manager (from `.symlinks/plugins/flutter_statusbar_manager/ios`)
+  - image_picker (from `.symlinks/plugins/image_picker/ios`)
+  - package_info (from `.symlinks/plugins/package_info/ios`)
+  - path_provider (from `.symlinks/plugins/path_provider/ios`)
+  - photo_manager (from `.symlinks/plugins/photo_manager/ios`)
+  - shared_preferences (from `.symlinks/plugins/shared_preferences/ios`)
+  - sqflite (from `.symlinks/plugins/sqflite/ios`)
+  - video_player (from `.symlinks/plugins/video_player/ios`)
+
+SPEC REPOS:
+  trunk:
+    - FMDB
+
+EXTERNAL SOURCES:
+  device_info:
+    :path: ".symlinks/plugins/device_info/ios"
+  Flutter:
+    :path: Flutter
+  flutter_custom_dialog:
+    :path: ".symlinks/plugins/flutter_custom_dialog/ios"
+  flutter_statusbar_manager:
+    :path: ".symlinks/plugins/flutter_statusbar_manager/ios"
+  image_picker:
+    :path: ".symlinks/plugins/image_picker/ios"
+  package_info:
+    :path: ".symlinks/plugins/package_info/ios"
+  path_provider:
+    :path: ".symlinks/plugins/path_provider/ios"
+  photo_manager:
+    :path: ".symlinks/plugins/photo_manager/ios"
+  shared_preferences:
+    :path: ".symlinks/plugins/shared_preferences/ios"
+  sqflite:
+    :path: ".symlinks/plugins/sqflite/ios"
+  video_player:
+    :path: ".symlinks/plugins/video_player/ios"
+
+SPEC CHECKSUMS:
+  device_info: d7d233b645a32c40dfdc212de5cf646ca482f175
+  Flutter: 0e3d915762c693b495b44d77113d4970485de6ec
+  flutter_custom_dialog: c0d222a3c35af5b57581e54ef8784c94037cd2ec
+  flutter_statusbar_manager: 18588ba7dce7a28a538363d2a9989f9ede4a6710
+  FMDB: 2ce00b547f966261cd18927a3ddb07cb6f3db82a
+  image_picker: 9c3312491f862b28d21ecd8fdf0ee14e601b3f09
+  package_info: 873975fc26034f0b863a300ad47e7f1ac6c7ec62
+  path_provider: abfe2b5c733d04e238b0d8691db0cfd63a27a93c
+  photo_manager: f7c619c2cc8c2adb8d85c63363babac477de9c67
+  shared_preferences: af6bfa751691cdc24be3045c43ec037377ada40d
+  sqflite: 4001a31ff81d210346b500c55b17f4d6c7589dd0
+  video_player: 9cc823b1d9da7e8427ee591e8438bfbcde500e6e
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.9.3

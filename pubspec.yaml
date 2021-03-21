@@ -1,0 +1,91 @@
+name: my_app
+description: A new Flutter project.
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.0
+  # 强大的dart工具类
+  common_utils:
+  # 路由
+  fluro: 
+  # 页面切换过渡动画
+  flutter_page_transition: 
+  route_transitions: 
+  # 屏幕适配
+  flutter_screenutil: 0.7.0
+  # 本地持久化存储
+  shared_preferences:
+  # 网络请求
+  dio: 
+  # 网络请求缓存
+  dio_http_cache: 
+  # Json
+  json_annotation:
+  # 设备信息
+  device_info:
+  # 包信息
+  package_info:
+  # Toast组件
+  bot_toast:
+  oktoast:
+  # Dialog组建
+  flutter_custom_dialog:
+  # SPIN动画
+  flutter_spinkit:
+  # Picker选择器
+  flutter_picker:
+  # 字体图标
+  flutter_vector_icons:
+  # 点击半透明
+  touchable_opacity:
+  # 抽屉
+  flutter_inner_drawer:
+  # 下拉刷新上拉加载
+  flutter_easyrefresh:
+  # IOS样式的时间选择器
+  flutter_cupertino_date_picker:
+  # 时间格式化
+  flutter_daydart:
+    git: https://github.com/leeewh/flutter_daydart.git
+  # 时间格式化(moment.js)
+  simple_moment:
+  # 状态栏
+  flutter_statusbar_manager: 
+  # 状态管理
+  mobx:
+  # 状态管理
+  flutter_mobx:
+  # 状态管理:包裹mobx  
+  provider:
+  # 图片选择器
+  image_picker:
+  # 类似微信的图片选择器
+  wechat_assets_picker:
+  # 图片缓存
+  cached_network_image: 
+  # 预加载的分页
+  preload_page_view:
+  # banner轮播图
+  flutter_swiper:
+  
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  # Json Map互转 
+  json_serializable:
+  build_runner:
+  # mobx依赖  
+  mobx_codegen:
+flutter:
+  uses-material-design: true
+  assets:
+    - static/img/
